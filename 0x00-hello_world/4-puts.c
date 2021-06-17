@@ -1,5 +1,5 @@
 #include <studio.h>
-int main()
+int main(void)
 {
   /*Escribir con C*/
   
