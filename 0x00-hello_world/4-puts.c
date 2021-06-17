@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-init main(void)
+main(void)
 {
   /* Este es mi primer programa en C*/
 
