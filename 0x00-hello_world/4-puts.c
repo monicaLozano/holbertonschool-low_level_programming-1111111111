@@ -1,9 +1,12 @@
-#include <stdio.h>
 
-/*Escribir con C*/
+#include <stdio.h>
 
 init main(void)
 {
-puts("Programming is like building a multilingual puzzle");
-return (0);
+  /* Este es mi primer programa en C*/
+
+  puts("Programming is like building a multilingual puzzle");
+
+  return 0;
+
 }
