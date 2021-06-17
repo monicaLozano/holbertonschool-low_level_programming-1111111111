@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 int main(void)
-/* Este es mi primer programa en C*/
+/* main: funcion principal*/
 
 {
  
-puts("Programming is like building a multilingual puzzle");
+puts("\""Programming is like building a multilingual puzzle);
 return 0;
  
 }
