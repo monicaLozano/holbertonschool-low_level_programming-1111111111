@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 int main(void)
-/* funcion m - funcion principal*/
+/**
+ * funcion main - funcion principal
+*/
 
 {
  
