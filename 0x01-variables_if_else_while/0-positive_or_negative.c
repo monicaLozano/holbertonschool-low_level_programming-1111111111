@@ -9,12 +9,12 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if(n == 0){
-printf("0");
+printf("is zero");
 }else if(n > 0){
-printf("Positivo");
+printf("is positive");
 }else{
 // Si no es neutro ni positivo, es negativo
-printf("Negativo");
+printf("is negative");
 /* your code goes there */
   return (0);
 }
