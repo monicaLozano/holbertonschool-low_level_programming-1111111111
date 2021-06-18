@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /*
-* main - determina los positivo, negativo, zero 
+* main - positive negative zero
 *
-* Return : 0
+* Return: always zero
 */
 int main(void)
 {
