@@ -3,8 +3,9 @@
 #include <stdio.h>
 /*
 * main - determina los positivo, negativo, zero 
+*
+* Return : 0
 */
-/* Return : 0 */
 int main(void)
 {
 int n;
