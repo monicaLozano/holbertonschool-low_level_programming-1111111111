@@ -14,14 +14,10 @@ char i = 'a';
 char j = 'z';
 while (i <= j)
 {
-putchar(i);
-i++;
-}
-i = 'a';
-j = 'z';
-while (i <= j)
+if (i != 'e' && i != 'q')
 {
-putchar(toupper(i));
+putchar(i);
+}
 i++;
 }
 putchar('\n');
