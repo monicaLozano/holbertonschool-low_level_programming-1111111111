@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - determina si es numero 
+ * main - determina si es numero
  * greater is zero..
 (*
-* Return: 0 
+* Return: 0
 */
 int main(void)
 {
