@@ -11,11 +11,11 @@ int main(void)
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
- char m = 'a';
- while (m <= 'z')
+char c = 'a';
+while (c <= 'z')
 {
-putchar(m);
-m++;
+putchar(c);
+c++;
 }
  putchar('\n');
 }
