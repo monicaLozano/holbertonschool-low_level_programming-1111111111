@@ -1,19 +1,18 @@
 #include <stdio.h>
 /**
- * main - Determine if the last digit of a random number is
- * greater than or less than 5, or is zero..
+ * main - determina si es numero 
+ * greater is zero..
 (*
-* Return: 0 on success
+* Return: 0 
 */
 int main(void)
 {
-char i = 0;
-while (i < 10)
-{
-printf("%d", i);
-}
-i++;
-}
-putchar('\n');
-return (0);
+  char i = 0;
+  while (i < 10)
+    {
+      printf("%d", i);
+      i++;
+    }
+  putchar('\n');
+  return (0);
 }
