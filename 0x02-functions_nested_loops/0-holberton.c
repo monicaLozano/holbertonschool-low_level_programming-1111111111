@@ -1,8 +1,11 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include "holberton.h"
+/** 
+ *main - putchar "holberton" 
+ *
+ *Retrun: 0
+*/
 int main(void)
 {
-  puthcar (Holberton)
+_putchar("Holberton" '\n');
 return (0);
 }
