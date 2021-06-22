@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-* main - imprint Holberton
+* main - check the code for Holberton School students.
 *
-* Retrun: 0
+* Return: Always 0.
 */
 int main(void)
 {
