@@ -2,6 +2,8 @@
 /**
 * _islower - Print alphabet
 *
+* @c: character
+*
 * Retrun: 0
 */
 int _islower(int c)
