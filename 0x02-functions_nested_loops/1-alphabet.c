@@ -1,10 +1,10 @@
 #include "holberton.h"
-/** 
- *main - putchar "holberton" 
- *
- *Retrun: 0
+/**
+* main - check the code for Holberton School students.
+*
+* Return: Always 0.
 */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 char i = 'z';
 while (i >= 'a')
