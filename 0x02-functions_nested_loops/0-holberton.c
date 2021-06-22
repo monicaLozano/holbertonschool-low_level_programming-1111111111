@@ -1,8 +1,8 @@
 #include "holberton.h"
-/** 
-*main - putchar "holberton" 
+/**
+* main - putchar "holberton"
 *
-*Retrun: 0
+* Retrun: 0
 */
 int main(void)
 {
@@ -15,6 +15,6 @@ _putchar('r');
 _putchar('t');
 _putchar('o');
 _putchar('n');
-_putchar('\n');  
+_putchar('\n'); 
 return (0);
 }
