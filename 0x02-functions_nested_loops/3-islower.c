@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* _islower - Print alphabet
+* _islower - Return alphabet
 *
 * @c: character
 *
