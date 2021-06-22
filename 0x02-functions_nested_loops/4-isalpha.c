@@ -1,12 +1,12 @@
 #include "holberton.h"
-/** 
- *main - putchar "holberton" 
- *
- *Retrun: 0
+/**
+* int _isalpha(int c)  - Check alphabetic
+* @c: character
+* Return: 0
 */
-int _isalpha(int c);
+int _isalpha(int c)
 {
-if (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+if (c >= 'a' && c <= 'z')
 return (1);
 else
 return (0);
