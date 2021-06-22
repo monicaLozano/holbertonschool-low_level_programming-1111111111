@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-* _islower - inprint alphabt
+* _islower -  print alfabt
 * @c: character
-* Retrun: 0
+* Return: 0
 */
 int _islower(int c)
 {
