@@ -1,10 +1,10 @@
 #include "holberton.h"
-/** 
- *main - putchar "holberton" 
- *
- *Retrun: 0
+/**
+* print_alphabet_x10 - Print alphabet
+*
+* Retrun: 0
 */
-int _islower(int c);
+int _islower(int c)
 {
 if (c >= 'a' && c <= 'z')
 return (1);
