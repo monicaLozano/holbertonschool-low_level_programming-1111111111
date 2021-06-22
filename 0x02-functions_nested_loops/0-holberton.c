@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* main - putchar "holberton"
+* main - imprint Holberton
 *
 * Retrun: 0
 */
@@ -15,6 +15,6 @@ _putchar('r');
 _putchar('t');
 _putchar('o');
 _putchar('n');
-_putchar('\n'); 
+_putchar('\n');
 return (0);
 }
