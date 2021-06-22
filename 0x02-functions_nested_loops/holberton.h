@@ -1,6 +1,5 @@
-#include "holberton.h"
 /*_putchar - writes the character c to stdout*/
-int _putchar(char c)
+int _putchar(char c);
 /*Write a function that prints the alphabet, in lowercase*/
 void print_alphabet(void);
 /*Write a function that prints 10 times the alphabet, in lowercase*/
