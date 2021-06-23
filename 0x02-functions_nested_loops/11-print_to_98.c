@@ -8,15 +8,14 @@
 */
 void print_to_98(int n)
 {
-int n;
-clrscr();
-printf("n >= 98 :\n");
-for (n = n; n <= 98; i++)
-{
-printf("%d", n);
-if (n < 98)
-printf(", ");
+if (n < 99)
+{for (n = n; n < 99; n++)
+printf("%d, ", n);
 }
-printf("\n");
-getch();
+else
+{
+for (n = n; n > 99; n--)
+printf("%d, ", n);
+printf("%d\n", 99);
+}
 }
