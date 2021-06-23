@@ -8,7 +8,8 @@
 */
 void print_to_98(int n)
 {
-
+if(n < 98)
+{
 for (int i = n; i < 99; i++)
 {
 if (i > 0)
@@ -19,5 +20,7 @@ if (i < 98)
 printf(", ");
 }
 }
+}
+putchar('\n')
 }
 }
