@@ -8,19 +8,27 @@
 */
 void print_to_98(int n)
 {
-if(n < 98)
+if (n < 99)
 {
 for (int i = n; i < 99; i++)
 {
-if (i > 0)
-{
-printf("%d, ", i);
+printf("%d", i);
 if (i < 98)
 {
 printf(", ");
 }
 }
 }
-putchar('\n');
+else
+{
+for (int i = n; i >= 98; i--)
+{
+printf("%d", i);
+if (i > 98)
+{
+printf(", ");
 }
+}
+}
+putchar('\n');
 }
