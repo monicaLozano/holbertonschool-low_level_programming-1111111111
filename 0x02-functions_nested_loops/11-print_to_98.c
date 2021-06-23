@@ -21,6 +21,6 @@ printf(", ");
 }
 }
 }
-putchar('\n')
+putchar('\n');
 }
 }
