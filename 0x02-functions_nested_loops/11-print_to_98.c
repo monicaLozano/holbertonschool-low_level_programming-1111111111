@@ -8,14 +8,16 @@
 */
 void print_to_98(int n)
 {
-if (n < 99)
-{for (n = n; n < 99; n++)
-printf("%d, ", n);
-}
-else
+
+for (i = n; i < 99; i++)
 {
-for (n = n; n > 99; n--)
-printf("%d, ", n);
-printf("%d\n", 99);
+if (i > 0)
+{
+printf("%d, ", i);
+if (i < 98)
+{
+printf(", ");
+}
+}
 }
 }
