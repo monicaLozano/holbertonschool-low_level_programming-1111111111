@@ -1,31 +1,38 @@
 #include "holberton.h"
 /**
-* times_table - compute the absolute value
-* @i: type number
-* Return: absolute value of @n
+* times_table - check the code
+*
+* Return: 0.
 */
 void times_table(void)
 {
-int x;
-for (int i = 0; i < 10; i++)
+int a, b, c, d, e;
+for (a = 0; a < 10; a++)
 {
-for (int j = 0; j < 10; j++)
+for (b = 0; b < 10; b++)
 {
-x = i * j;
-_putchar("%d", x);
-if (j < 9)
+c = a * b;
+d = c / 10;
+e = c % 10;
+if (b == 0)
+_putchar('0');
+else if (c < 10)
 {
-_putchar(',');
 _putchar(' ');
-if (x < 10)
-{
-_putchar(' ');
-}
+_putchar('0' + e);
 }
 else
 {
-_putchar('\n');
+_putchar('0' + d);
+_putchar('0' + e);
 }
+if (b < 9)
+{
+_putchar(',');
+_putchar(' ');
+}
+else
+_putchar('\n');
 }
 }
 }
