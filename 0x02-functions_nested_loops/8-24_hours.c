@@ -4,21 +4,16 @@
 * @void: first int to add
 *
 */
-void jack_bauer(void)
-for (int i = 0; i < 24 ; i++)
+void jack_bauer(void)  
+for (int i = 0; i < 24; i++)
 {
 for (int j = 0; j < 60; j++)
 {
-if (i < 10)
-{
-_putchar('0');
-}
-_putchar("%d" ,i);
+_putchar((i / 10) + '0');
+_putchar((i % 10) + '0');
 _putchar(':');
-if (j < 10)
-{
-_putchar('0');
-}
-_putchar("%d" ,j);
+_putchar((j / 10) + '0');
+_putchar((j % 10) + '0');
 _putchar('\n');
+}
 }
