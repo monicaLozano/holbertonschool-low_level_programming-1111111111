@@ -4,7 +4,8 @@
 * @void: first int to add
 *
 */
-void jack_bauer(void)  
+void jack_bauer(void)
+{
 for (int i = 0; i < 24; i++)
 {
 for (int j = 0; j < 60; j++)
@@ -21,5 +22,6 @@ putchar('0');
 }
 putchar(j);
 putchar('\n');
+}
 }
 }
