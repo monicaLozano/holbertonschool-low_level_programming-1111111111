@@ -6,14 +6,15 @@
 *
 * Return: void returns nothing.
 */
+void print_to_98(int n)
 {
-int i;
+int n;
 clrscr();
 printf("n >= 98 :\n");
-for (i = n; i <= 98; i++)
+for (n = n; n <= 98; i++)
 {
-printf("%d", i);
-if (i < 98)
+printf("%d", n);
+if (n < 98)
 printf(", ");
 }
 printf("\n");
