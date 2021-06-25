@@ -9,10 +9,10 @@
 void print_line(int n)
 
 {
-	while (n >0)
-		{
-			putchar (95);
-			n--;
-		}
-	_putchar(10);
+while (n >0)
+{
+putchar (95);
+n--;
+}
+_putchar(10);
 }
