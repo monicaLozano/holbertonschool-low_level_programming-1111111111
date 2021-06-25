@@ -1,9 +1,9 @@
 #include "holberton.h"
-
 /**
- * print_diagonal - check the code for Holberton School students.
+ * print_diagonal - check the code for Holberton School students
+ * @n: check the code for Holberton School students
  *
- * Return: Always 0.
+ * Return: a diagonal
  */
 void print_diagonal(int n)
 {
