@@ -1,7 +1,7 @@
 /**
  * _isupper; checks whether a character is an uppercase alphabet (A-Z) or not.
- *
- * Return: Always 0.
+ * @c: comparate
+ * Return: 1  o 0
  */
 int _isupper(int c)
 {
@@ -13,4 +13,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
- }
+}
