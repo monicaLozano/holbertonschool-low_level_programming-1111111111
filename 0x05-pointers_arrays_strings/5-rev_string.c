@@ -25,7 +25,7 @@ i++;
 i = 0;
 for (; i < len;)
 {
-j = s[len]
+j = s[len];
 s[len] = s[i];
 s[i] = j;
 i++;
