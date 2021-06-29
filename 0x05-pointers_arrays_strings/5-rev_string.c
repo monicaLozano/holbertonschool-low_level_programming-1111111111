@@ -17,6 +17,7 @@ len++;
 s++;
 }
 len--;
+len--;
 for (; i <= len;)
 {
 s--;
