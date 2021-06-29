@@ -1,12 +1,12 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* _puts - check the code for Holberton School students.
-* @str: funtion
+* print_rev - check the code for Holberton School students.
+* @s: funtion
 * Return: Always 0.
 */
 
-void _puts(char *str)
+void print_rev(char *s)
 {
 for (; *str != '\0';)
 {
