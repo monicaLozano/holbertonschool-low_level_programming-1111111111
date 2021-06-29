@@ -7,6 +7,10 @@
  * Return: Always 0.
  */
 int _strlen(char *s)
+	int i = 0;
+while(string[i] != '\0')
 {
-	int lonitud + strlen("holberton!"
+++i;
+}
+return i;
 }
