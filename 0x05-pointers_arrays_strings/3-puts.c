@@ -1,8 +1,8 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main - check the code for Holberton School students.
- *
+ * _puts - check the code for Holberton School students.
+ * @str: funtion
  * Return: Always 0.
  */
 
