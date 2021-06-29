@@ -16,7 +16,10 @@ len++;
 }
 for (; len >= 0;)
 {
+if (*s != '\0')
+{
 _putchar(*s);
+}
 s--;
 len--;
 }
