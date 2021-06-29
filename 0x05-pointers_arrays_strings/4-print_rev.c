@@ -12,13 +12,13 @@ int len = 0;
 while (*s != 0)
 {
 s++;
-len++
+len++;
 }
 for (; len > 0;)
 {
 _putchar(*s);
 s--;
-len--
+len--;
 }
 _putchar('\n');
 }
