@@ -17,7 +17,6 @@ len++;
 s++;
 }
 len--;
-len--;
 for (; i <= len;)
 {
 s--;
@@ -26,9 +25,12 @@ i++;
 i = 0;
 for (; i < len;)
 {
+if(s[len] != '\0')
+{
 j = s[len];
 s[len] = s[i];
 s[i] = j;
+}
 i++;
 len--;
 }
