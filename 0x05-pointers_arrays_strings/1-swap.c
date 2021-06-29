@@ -2,8 +2,8 @@
 
 /**
 * swap_int - check the code for Holberton School students.
-* @*a: the value chang
-* @*b: the value chang
+* @a: the value chang
+* @b: the value chang
 * Return: Always 0.
 */
 
