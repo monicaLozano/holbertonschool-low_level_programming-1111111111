@@ -9,8 +9,9 @@
 void rev_string(char *s)
 {
 int len = 0;
-while (*s != 0)
+for (; *s != '\0';)
 {
+_putchar(*s);
 s++;
 len++;
 }
