@@ -15,6 +15,7 @@ _putchar(*s);
 s++;
 len++;
 }
+_putchar('\n');
 for (; len >= 0;)
 {
 if (*s != '\0')
