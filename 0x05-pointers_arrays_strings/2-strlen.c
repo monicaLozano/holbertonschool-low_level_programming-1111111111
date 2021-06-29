@@ -7,10 +7,12 @@
  * Return: Always 0.
  */
 int _strlen(char *s)
-	int i = 0;
-while(string[i] != '\0')
 {
-++i;
+int len = 0;
+while(*s != 0)
+{
+s++;
+len++;
 }
-return i;
+return len;
 }
